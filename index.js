@@ -34,7 +34,7 @@ function checkWord() {
 	
 	userAnswer = userAnswer.toUpperCase();
 
-    if (userAnswer.length < 5 || userAnswer > 5) {
+    if (userAnswer.length < 5 || userAnswer.length > 5) {
         alert("Invalid input. Please enter a 5-letter word.");
         return;
     }
